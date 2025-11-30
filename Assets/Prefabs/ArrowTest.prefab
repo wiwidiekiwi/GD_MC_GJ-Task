@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 6253603237775695867}
   - component: {fileID: 4453932948141467444}
   - component: {fileID: 6243075740910693014}
-  m_Layer: 0
+  - component: {fileID: 3247616806703895604}
+  m_Layer: 7
   m_Name: ArrowTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +116,7 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &6243075740910693014
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -162,3 +163,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.41, y: 0.73}
   m_EdgeRadius: 0
+--- !u!114 &3247616806703895604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8347423409500838627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f54d5a7b6523da4b8f4cf33f7bb679e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
