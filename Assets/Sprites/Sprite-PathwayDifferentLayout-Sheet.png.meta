@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: bc7a625ee9161134986610dbc761bfa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3950497347062637970
+    second: Sprite-PathwayDifferentLayout-Sheet_0
+  - first:
+      213: -1993560322262492385
+    second: Sprite-PathwayDifferentLayout-Sheet_1
+  - first:
+      213: 7266070099820795878
+    second: Sprite-PathwayDifferentLayout-Sheet_2
+  - first:
+      213: -876956282531364901
+    second: Sprite-PathwayDifferentLayout-Sheet_3
+  - first:
+      213: -4661697601047448820
+    second: Sprite-PathwayDifferentLayout-Sheet_4
+  - first:
+      213: 4609378497996289421
+    second: Sprite-PathwayDifferentLayout-Sheet_5
+  - first:
+      213: 858115828668802422
+    second: Sprite-PathwayDifferentLayout-Sheet_6
+  - first:
+      213: -2230541093020037371
+    second: Sprite-PathwayDifferentLayout-Sheet_7
+  - first:
+      213: -71319203165504201
+    second: Sprite-PathwayDifferentLayout-Sheet_8
+  - first:
+      213: -6497420847398064676
+    second: Sprite-PathwayDifferentLayout-Sheet_9
+  - first:
+      213: -1394869646879622199
+    second: Sprite-PathwayDifferentLayout-Sheet_10
+  - first:
+      213: -7957884960501340147
+    second: Sprite-PathwayDifferentLayout-Sheet_11
+  - first:
+      213: 4612071707186088105
+    second: Sprite-PathwayDifferentLayout-Sheet_12
+  - first:
+      213: -4934942357631068269
+    second: Sprite-PathwayDifferentLayout-Sheet_13
+  - first:
+      213: -6960826131494000838
+    second: Sprite-PathwayDifferentLayout-Sheet_14
+  - first:
+      213: -4894273301137076493
+    second: Sprite-PathwayDifferentLayout-Sheet_15
+  - first:
+      213: -4235895461356855786
+    second: Sprite-PathwayDifferentLayout-Sheet_16
+  - first:
+      213: -1571558306650198310
+    second: Sprite-PathwayDifferentLayout-Sheet_17
+  - first:
+      213: -5024606063371644110
+    second: Sprite-PathwayDifferentLayout-Sheet_18
+  - first:
+      213: -3874306527973477526
+    second: Sprite-PathwayDifferentLayout-Sheet_19
+  - first:
+      213: 21075259595083761
+    second: Sprite-PathwayDifferentLayout-Sheet_20
+  - first:
+      213: 2770475510890173171
+    second: Sprite-PathwayDifferentLayout-Sheet_21
+  - first:
+      213: -6203782984052825509
+    second: Sprite-PathwayDifferentLayout-Sheet_22
+  - first:
+      213: -1605001188940498763
+    second: Sprite-PathwayDifferentLayout-Sheet_23
+  - first:
+      213: 1865910635110711452
+    second: Sprite-PathwayDifferentLayout-Sheet_24
+  - first:
+      213: 1566477834458990792
+    second: Sprite-PathwayDifferentLayout-Sheet_25
+  - first:
+      213: -1704101583598942753
+    second: Sprite-PathwayDifferentLayout-Sheet_26
+  - first:
+      213: 3132519189744504191
+    second: Sprite-PathwayDifferentLayout-Sheet_27
+  - first:
+      213: 9096722459517103579
+    second: Sprite-PathwayDifferentLayout-Sheet_28
+  - first:
+      213: 1617408367248905308
+    second: Sprite-PathwayDifferentLayout-Sheet_29
+  - first:
+      213: -6536200419213830978
+    second: Sprite-PathwayDifferentLayout-Sheet_30
+  - first:
+      213: 3906632987789451726
+    second: Sprite-PathwayDifferentLayout-Sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 106
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295aac1186cf2d630800000000000000
+      internalID: 3950497347062637970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 106
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b1b3103737554e0800000000000000
+      internalID: -1993560322262492385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 106
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7d7ec224446d460800000000000000
+      internalID: 7266070099820795878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 106
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfbb2848ec64d3f0800000000000000
+      internalID: -876956282531364901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 106
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03b6470bb25e4fb0800000000000000
+      internalID: -4661697601047448820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 106
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d857468825dc7ff30800000000000000
+      internalID: 4609378497996289421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675a1f7bcc3a8eb00800000000000000
+      internalID: 858115828668802422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 85
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f01ad91b68b01e0800000000000000
+      internalID: -2230541093020037371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 85
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73df7a5009f920ff0800000000000000
+      internalID: -71319203165504201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 85
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddee920a2684d5a0800000000000000
+      internalID: -6497420847398064676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbf3cd427d64ace0800000000000000
+      internalID: -1394869646879622199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 85
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08e4e58ac9ef8190800000000000000
+      internalID: -7957884960501340147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8c47928ce510040800000000000000
+      internalID: 4612071707186088105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3971f5a7210938bb0800000000000000
+      internalID: -4934942357631068269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a372b01738d266f90800000000000000
+      internalID: -6960826131494000838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fecb041d5c041cb0800000000000000
+      internalID: -4894273301137076493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e922845831735c0800000000000000
+      internalID: -4235895461356855786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 64
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adeec4ceb04b03ae0800000000000000
+      internalID: -1571558306650198310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 43
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23395782863054ab0800000000000000
+      internalID: -5024606063371644110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 43
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63f9216db2bb3ac0800000000000000
+      internalID: -3874306527973477526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 43
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffc6b146dfda4000800000000000000
+      internalID: 21075259595083761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 43
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2178d6cc4b27620800000000000000
+      internalID: 2770475510890173171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 43
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b522bebbe3cb7e9a0800000000000000
+      internalID: -6203782984052825509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 43
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b83f1d1ce3e9b9e0800000000000000
+      internalID: -1605001188940498763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 22
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90c56c26db05e910800000000000000
+      internalID: 1865910635110711452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c883777a4f3db510800000000000000
+      internalID: 1566477834458990792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 22
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5876073a0d958e0800000000000000
+      internalID: -1704101583598942753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 22
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dc0d43b91f87b20800000000000000
+      internalID: 3132519189744504191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 33
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdda5d361ec0e3e70800000000000000
+      internalID: 9096722459517103579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 33
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c549d923750327610800000000000000
+      internalID: 1617408367248905308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb410085950ca45a0800000000000000
+      internalID: -6536200419213830978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-PathwayDifferentLayout-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 12
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec163011106273630800000000000000
+      internalID: 3906632987789451726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite-PathwayDifferentLayout-Sheet_0: 3950497347062637970
+      Sprite-PathwayDifferentLayout-Sheet_1: -1993560322262492385
+      Sprite-PathwayDifferentLayout-Sheet_10: -1394869646879622199
+      Sprite-PathwayDifferentLayout-Sheet_11: -7957884960501340147
+      Sprite-PathwayDifferentLayout-Sheet_12: 4612071707186088105
+      Sprite-PathwayDifferentLayout-Sheet_13: -4934942357631068269
+      Sprite-PathwayDifferentLayout-Sheet_14: -6960826131494000838
+      Sprite-PathwayDifferentLayout-Sheet_15: -4894273301137076493
+      Sprite-PathwayDifferentLayout-Sheet_16: -4235895461356855786
+      Sprite-PathwayDifferentLayout-Sheet_17: -1571558306650198310
+      Sprite-PathwayDifferentLayout-Sheet_18: -5024606063371644110
+      Sprite-PathwayDifferentLayout-Sheet_19: -3874306527973477526
+      Sprite-PathwayDifferentLayout-Sheet_2: 7266070099820795878
+      Sprite-PathwayDifferentLayout-Sheet_20: 21075259595083761
+      Sprite-PathwayDifferentLayout-Sheet_21: 2770475510890173171
+      Sprite-PathwayDifferentLayout-Sheet_22: -6203782984052825509
+      Sprite-PathwayDifferentLayout-Sheet_23: -1605001188940498763
+      Sprite-PathwayDifferentLayout-Sheet_24: 1865910635110711452
+      Sprite-PathwayDifferentLayout-Sheet_25: 1566477834458990792
+      Sprite-PathwayDifferentLayout-Sheet_26: -1704101583598942753
+      Sprite-PathwayDifferentLayout-Sheet_27: 3132519189744504191
+      Sprite-PathwayDifferentLayout-Sheet_28: 9096722459517103579
+      Sprite-PathwayDifferentLayout-Sheet_29: 1617408367248905308
+      Sprite-PathwayDifferentLayout-Sheet_3: -876956282531364901
+      Sprite-PathwayDifferentLayout-Sheet_30: -6536200419213830978
+      Sprite-PathwayDifferentLayout-Sheet_31: 3906632987789451726
+      Sprite-PathwayDifferentLayout-Sheet_4: -4661697601047448820
+      Sprite-PathwayDifferentLayout-Sheet_5: 4609378497996289421
+      Sprite-PathwayDifferentLayout-Sheet_6: 858115828668802422
+      Sprite-PathwayDifferentLayout-Sheet_7: -2230541093020037371
+      Sprite-PathwayDifferentLayout-Sheet_8: -71319203165504201
+      Sprite-PathwayDifferentLayout-Sheet_9: -6497420847398064676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
