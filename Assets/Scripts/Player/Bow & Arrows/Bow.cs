@@ -5,24 +5,26 @@ using UnityEngine.Rendering.Universal;
 public class Bow : MonoBehaviour
 {
     public GameObject arrow;
-    public float launchForce;
+    private float launchForce;
     public Transform shotPoint;
 
-    public GameObject point;
+    /*public GameObject point;
     private GameObject[] points;
     public int numberOfPoints;
-    public float spaceBetweenPoints;
+    public float spaceBetweenPoints;*/
     private Vector2 direction;
 
     private float holdDownStartTime;
+    public const float maxForce = 20;
+    private Vector2 shootForce;
 
     private void Start()
     {
-        points = new GameObject[numberOfPoints];
+        /*points = new GameObject[numberOfPoints];
         for (int i = 0; i < numberOfPoints; i++)
         {
             points[i] = Instantiate(point, shotPoint.position, Quaternion.identity);
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -36,29 +38,42 @@ public class Bow : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             holdDownStartTime = Time.time;
+            Debug.Log("Hold start");
         }
         if (Input.GetMouseButtonUp(0))
         {
             float holdDownTime = Time.time - holdDownStartTime;
+            Shoot(holdDownTime);
+            Debug.Log("hold end");
         }
-        for (int i = 0; i < numberOfPoints; i++)
+        /* for (int i = 0; i < numberOfPoints; i++)
         {
             points[i].transform.position = PointPosition(i * spaceBetweenPoints);
-        }
+        }*/
     }
 
-    void Shoot()
+    void Shoot(float holdTime)
     {
         GameObject newArrow = Instantiate(arrow, shotPoint.position, shotPoint.rotation);
-        newArrow.GetComponent<Rigidbody2D>().linearVelocity = transform.right * launchForce;
+        shootForce = transform.right * CalculateHoldDownForce(holdTime) * launchForce;
+        newArrow.GetComponent<Rigidbody2D>().linearVelocity = shootForce;
     }
 
     Vector2 PointPosition(float t)
     {
-        Vector2 position = (Vector2)shotPoint.position + (direction.normalized * launchForce * t) +
+        Vector2 position = (Vector2)shotPoint.position + (direction.normalized * shootForce * t) +
                            0.5f * Physics2D.gravity * (t * t);
         return position;
     }
+    
+   
 
-    private float CalculateHoldDownForce;
+    private float CalculateHoldDownForce(float holdTime)
+    {
+        float maxForceHoldDownTime = 5f;
+        float holdTimeNormalized = Mathf.Clamp01(holdTime / maxForceHoldDownTime);
+        launchForce = holdTimeNormalized * maxForce;
+        return launchForce;
+    }
+
 }
