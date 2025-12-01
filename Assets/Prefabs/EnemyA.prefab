@@ -182,6 +182,8 @@ MonoBehaviour:
   shootingDistance: 5
   shootInterval: 1.5
   speed: 5
+  flip: 0
+  enemySpeed: 3.98
 --- !u!1 &8427146055965054369
 GameObject:
   m_ObjectHideFlags: 0
