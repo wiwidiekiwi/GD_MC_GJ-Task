@@ -4,12 +4,13 @@ using UnityEngine.Rendering.Universal;
 
 public class Bow : MonoBehaviour
 {
+    [SerializeField] private GameObject arrowPrefab;
     
-    
-    public GameObject arrow;
-    public GameObject tpArrow;
+    [SerializeField] private GameObject arrow;
+    [SerializeField] private GameObject tpArrow;
     private float launchForce;
     public Transform shotPoint;
+    public Animator animator;
 
     /*public GameObject point;
     private GameObject[] points;
@@ -28,6 +29,7 @@ public class Bow : MonoBehaviour
         {
             points[i] = Instantiate(point, shotPoint.position, Quaternion.identity);
         }*/
+        SetArrowPrefab(arrow);
     }
 
     // Update is called once per frame
@@ -42,22 +44,24 @@ public class Bow : MonoBehaviour
         {
             holdDownStartTime = Time.time;
             Debug.Log("Hold start");
+            animator.SetBool("isCharging", true);
         }
         if (Input.GetMouseButtonUp(0))
         {
             float holdDownTime = Time.time - holdDownStartTime;
             Shoot(holdDownTime);
             Debug.Log("hold end");
+            animator.SetBool("isCharging", false);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            
+            SetArrow(1);
         }
 
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            
+            SetArrow(2);
         }
         /* for (int i = 0; i < numberOfPoints; i++)
         {
@@ -67,7 +71,7 @@ public class Bow : MonoBehaviour
 
     void Shoot(float holdTime)
     {
-        GameObject newArrow = Instantiate(arrow, shotPoint.position, shotPoint.rotation);
+        GameObject newArrow = Instantiate(arrowPrefab, shotPoint.position, shotPoint.rotation);
         shootForce = transform.right * CalculateHoldDownForce(holdTime) * launchForce;
         newArrow.GetComponent<Rigidbody2D>().linearVelocity = shootForce;
     }
@@ -87,6 +91,24 @@ public class Bow : MonoBehaviour
         float holdTimeNormalized = Mathf.Clamp01(holdTime / maxForceHoldDownTime);
         launchForce = holdTimeNormalized * maxForce;
         return launchForce;
+    }
+
+    public void SetArrowPrefab(GameObject newArrow)
+    {
+        arrowPrefab = newArrow;
+    }
+
+    void SetArrow(int arrowID)
+    {
+        switch (arrowID)
+        {
+            case 1:
+                SetArrowPrefab(arrow);
+                break;
+            case 2:
+                SetArrowPrefab(tpArrow);
+                break;
+        }
     }
 
 }

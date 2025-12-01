@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded;
 
+    public Animator animator;
+
     private void Awake()
     {
         actions = new InputSystem_Actions();
@@ -64,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        //animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -72,6 +75,8 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheckTransform.position, groundCheckRadius, groundLayer);
         
         rb.linearVelocityX = move * speed;
+        animator.SetFloat("xVelocity", Math.Abs(rb.linearVelocityX));
+        Debug.Log(rb.linearVelocityX);
     }
 
     private void OnDrawGizmosSelected()
