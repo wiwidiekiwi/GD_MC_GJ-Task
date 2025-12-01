@@ -4,7 +4,10 @@ using UnityEngine.Rendering.Universal;
 
 public class Bow : MonoBehaviour
 {
+    
+    
     public GameObject arrow;
+    public GameObject tpArrow;
     private float launchForce;
     public Transform shotPoint;
 
@@ -46,6 +49,16 @@ public class Bow : MonoBehaviour
             Shoot(holdDownTime);
             Debug.Log("hold end");
         }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            
+        }
         /* for (int i = 0; i < numberOfPoints; i++)
         {
             points[i].transform.position = PointPosition(i * spaceBetweenPoints);
@@ -59,12 +72,12 @@ public class Bow : MonoBehaviour
         newArrow.GetComponent<Rigidbody2D>().linearVelocity = shootForce;
     }
 
-    Vector2 PointPosition(float t)
+    /*Vector2 PointPosition(float t)
     {
         Vector2 position = (Vector2)shotPoint.position + (direction.normalized * shootForce * t) +
                            0.5f * Physics2D.gravity * (t * t);
         return position;
-    }
+    }*/
     
    
 
