@@ -14,6 +14,8 @@ public class EnemyArcher : MonoBehaviour
     private GameObject player;
     public bool flip;
     public float enemySpeed;
+
+    public float movingDistanceToPlayer;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,13 +43,15 @@ public class EnemyArcher : MonoBehaviour
 
         if (player.transform.position.x > transform.position.x)
         {
-            scale.x = Mathf.Abs(scale.x) * -1 * (flip ? -1 : 1);
-            transform.Translate(enemySpeed * Time.deltaTime, 0,0);
+            scale.x = 1;
+            if(direction.magnitude > movingDistanceToPlayer)
+                transform.Translate(enemySpeed * Time.deltaTime, 0,0);
         }
         else
         {
-            scale.x = Mathf.Abs(scale.x) * (flip ? -1 : 1);
-            transform.Translate(enemySpeed * Time.deltaTime * -1, 0,0);
+            scale.x = -1;
+            if(direction.magnitude > movingDistanceToPlayer)
+                transform.Translate(enemySpeed * Time.deltaTime * -1, 0,0);
         }
 
         transform.localScale = scale;
