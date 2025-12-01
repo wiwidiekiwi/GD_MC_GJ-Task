@@ -26,7 +26,9 @@ public class EnemyHealth : MonoBehaviour
         healthBar.UpdateHealthBar(health, maxHealth);
         if (health <= 0)
         {
-            Destroy(gameObject);
+            GetComponent<EnemyArcher>().enabled = false;
+            GetComponentInChildren<Animator>().SetTrigger("Death");
+            Destroy(gameObject, 1);
         }
     }
     
