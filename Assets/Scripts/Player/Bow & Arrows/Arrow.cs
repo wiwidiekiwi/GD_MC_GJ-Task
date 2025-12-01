@@ -24,10 +24,11 @@ public class Arrow : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        print(collision.collider.gameObject.name);
         hasHit = true;
         rb.linearVelocity = Vector2.zero;
         
-        //Destroy(gameObject);
+        Destroy(gameObject);
 
         if (collision.gameObject.TryGetComponent(out EnemyHealth enemyComponent))
         {

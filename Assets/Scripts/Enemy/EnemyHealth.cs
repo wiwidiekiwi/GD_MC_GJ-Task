@@ -13,6 +13,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(float damageAmount)
     {
+        
         health -= damageAmount;
         if (health <= 0)
         {
