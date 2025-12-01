@@ -14,6 +14,8 @@ public class Bow : MonoBehaviour
     public float spaceBetweenPoints;
     private Vector2 direction;
 
+    private float holdDownStartTime;
+
     private void Start()
     {
         points = new GameObject[numberOfPoints];
@@ -33,7 +35,11 @@ public class Bow : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Shoot();
+            holdDownStartTime = Time.time;
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            float holdDownTime = Time.time - holdDownStartTime;
         }
         for (int i = 0; i < numberOfPoints; i++)
         {
@@ -53,4 +59,6 @@ public class Bow : MonoBehaviour
                            0.5f * Physics2D.gravity * (t * t);
         return position;
     }
+    
+    private float CalculateHoldDownForce
 }
