@@ -59,6 +59,6 @@ public class Bow : MonoBehaviour
                            0.5f * Physics2D.gravity * (t * t);
         return position;
     }
-    
-    private float CalculateHoldDownForce
+
+    private float CalculateHoldDownForce;
 }

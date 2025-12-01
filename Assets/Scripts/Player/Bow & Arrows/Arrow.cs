@@ -26,5 +26,12 @@ public class Arrow : MonoBehaviour
     {
         hasHit = true;
         rb.linearVelocity = Vector2.zero;
+        
+        //Destroy(gameObject);
+
+        if (collision.gameObject.TryGetComponent(out EnemyHealth enemyComponent))
+        {
+            enemyComponent.TakeDamage(1);
+        }
     }
 }
