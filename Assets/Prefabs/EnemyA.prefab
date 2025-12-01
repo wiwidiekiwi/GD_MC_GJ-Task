@@ -422,7 +422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1.44
-  maxHealth: 5
+  maxHealth: 3
   healthBar: {fileID: 0}
 --- !u!58 &4208864776875874075
 CircleCollider2D:
