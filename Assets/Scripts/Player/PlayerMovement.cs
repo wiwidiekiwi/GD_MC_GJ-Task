@@ -14,6 +14,14 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public Transform groundCheckTransform;
+    
+    public float groundCheckRadius;
+    
+    public LayerMask groundLayer;
+
+    private bool isGrounded;
+
     private void Awake()
     {
         actions = new InputSystem_Actions();
@@ -43,7 +51,13 @@ public class PlayerMovement : MonoBehaviour
     
     void Jumping(InputAction.CallbackContext ctx)
     {
-        rb.linearVelocityY = jumpForce;
+        if (ctx.performed)
+        {
+            if (isGrounded)
+            {
+                rb.linearVelocityY = jumpForce;
+            }
+        }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -55,6 +69,14 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheckTransform.position, groundCheckRadius, groundLayer);
+        
         rb.linearVelocityX = move * speed;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(groundCheckTransform.position, groundCheckRadius);
     }
 }
