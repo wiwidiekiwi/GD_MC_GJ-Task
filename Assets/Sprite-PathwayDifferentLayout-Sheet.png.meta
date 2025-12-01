@@ -909,7 +909,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sprite-PathwayDifferentLayout-Sheet_0: 3950497347062637970
+      Sprite-PathwayDifferentLayout-Sheet_1: -1993560322262492385
+      Sprite-PathwayDifferentLayout-Sheet_10: -1394869646879622199
+      Sprite-PathwayDifferentLayout-Sheet_11: -7957884960501340147
+      Sprite-PathwayDifferentLayout-Sheet_12: 4612071707186088105
+      Sprite-PathwayDifferentLayout-Sheet_13: -4934942357631068269
+      Sprite-PathwayDifferentLayout-Sheet_14: -6960826131494000838
+      Sprite-PathwayDifferentLayout-Sheet_15: -4894273301137076493
+      Sprite-PathwayDifferentLayout-Sheet_16: -4235895461356855786
+      Sprite-PathwayDifferentLayout-Sheet_17: -1571558306650198310
+      Sprite-PathwayDifferentLayout-Sheet_18: -5024606063371644110
+      Sprite-PathwayDifferentLayout-Sheet_19: -3874306527973477526
+      Sprite-PathwayDifferentLayout-Sheet_2: 7266070099820795878
+      Sprite-PathwayDifferentLayout-Sheet_20: 21075259595083761
+      Sprite-PathwayDifferentLayout-Sheet_21: 2770475510890173171
+      Sprite-PathwayDifferentLayout-Sheet_22: -6203782984052825509
+      Sprite-PathwayDifferentLayout-Sheet_23: -1605001188940498763
+      Sprite-PathwayDifferentLayout-Sheet_24: 1865910635110711452
+      Sprite-PathwayDifferentLayout-Sheet_25: 1566477834458990792
+      Sprite-PathwayDifferentLayout-Sheet_26: -1704101583598942753
+      Sprite-PathwayDifferentLayout-Sheet_27: 3132519189744504191
+      Sprite-PathwayDifferentLayout-Sheet_28: 9096722459517103579
+      Sprite-PathwayDifferentLayout-Sheet_29: 1617408367248905308
+      Sprite-PathwayDifferentLayout-Sheet_3: -876956282531364901
+      Sprite-PathwayDifferentLayout-Sheet_30: -6536200419213830978
+      Sprite-PathwayDifferentLayout-Sheet_31: 3906632987789451726
+      Sprite-PathwayDifferentLayout-Sheet_4: -4661697601047448820
+      Sprite-PathwayDifferentLayout-Sheet_5: 4609378497996289421
+      Sprite-PathwayDifferentLayout-Sheet_6: 858115828668802422
+      Sprite-PathwayDifferentLayout-Sheet_7: -2230541093020037371
+      Sprite-PathwayDifferentLayout-Sheet_8: -71319203165504201
+      Sprite-PathwayDifferentLayout-Sheet_9: -6497420847398064676
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
